@@ -25,7 +25,7 @@ int fun(int a, int b, int t) {
       if (3 * a == 2 * b) return 0;
   */
 
-  if (/* Bob winning condition */) {
+  if (/* Bob winning condition / special condition */) {
     return 0;
   }
 
