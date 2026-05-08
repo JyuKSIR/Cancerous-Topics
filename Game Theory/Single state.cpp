@@ -10,7 +10,7 @@ int dp[mxn + 1];
 
 int fun(int n) { 
   if (/* no move possible / losing base case */) {
-    return 0;
+    return 0; // return 1 have to understand it
   }
 
   if (dp[n] != -1) return dp[n];
