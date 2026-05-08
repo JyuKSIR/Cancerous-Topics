@@ -11,7 +11,7 @@ int dp[mxa + 1][mxb + 1];
 
 int fun(int a, int b) {
   if (/* no move possible / losing base case */) {
-    return 0;
+    return 1;
   }
 
   if (dp[a][b] != -1) return dp[a][b];
