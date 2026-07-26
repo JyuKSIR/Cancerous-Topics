@@ -20,3 +20,4 @@ int main() {
   }
   cout << "count of divisors: " << ct << " Sum: " << sum << "\n";
 }
+// TC -> O(sqrt(n))
